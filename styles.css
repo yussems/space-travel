@@ -212,8 +212,6 @@ p {
   transform: scale(1.2);
 }
 
-
-
 .img-container {
   width: 100%;
   height: 300px;
@@ -225,11 +223,10 @@ p {
   background-position: center;
   background-attachment: fixed;
 }
-.img-container .absolute-container{
+.img-container .absolute-container {
   position: absolute;
   top: 4em;
   left: 4em;
-
 }
 .absolute-container .absolute-head {
   color: #fff;
@@ -237,37 +234,54 @@ p {
   font-size: 4rem;
   line-height: 1.2;
 }
-.absolute-container .absolute-paraf{
+.absolute-container .absolute-paraf {
   color: #fff;
   font-size: 2rem;
   line-height: 1.2;
 }
 .img-inside-card {
   width: 100%;
-  height: 30%;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-
 }
 
-
-
-
-
 .main-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .category {
   width: 100%;
-  height: 300px;
 }
 .stick {
   width: 1px;
   border-left: 1px solid black;
-  height: 3em
+  height: 3em;
+}
+
+.bottom-card {
+  width: 253px;
+  height: 350px;
+  background-color: #fff;
+  transition: .4s;
+}
+.bottom-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.img-inside-bottm-card {
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.bottom-card .bottom-card-paraf {
+  font-size: var(--font-size);
+  font-weight: 600;
+  text-decoration: underline;
+  
 }
