@@ -154,6 +154,9 @@ address {
 .m--bottom {
   margin-bottom: 2em;
 }
+.m-all{
+  margin: 0 1em;
+}
 .m--top {
   margin-top: 2em;
 }
@@ -302,8 +305,16 @@ address {
 }
 
 .shipping{
-  background-color: rgb(188, 80, 80);
+  background-color: #fff;
+  position: absolute;
+  top: -1%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .footer-about {
   max-width: 30%;
+}
+footer{
+  position: relative;
+  background-color: #bbb1b1;
 }
