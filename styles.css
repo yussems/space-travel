@@ -62,6 +62,11 @@ address {
   justify-content: space-between;
   align-items: center;
 }
+.f-evenly {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .paraf {
   align-self: center;
 }
@@ -292,6 +297,12 @@ address {
   background-color: #fff;
   transition: .4s;
 }
+
+.toggle{
+  display: none;
+}
+
+
 .bottom-card:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
