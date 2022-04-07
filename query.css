@@ -1,7 +1,10 @@
 @media only screen and (max-width: 768px) {
     *{
         font-size: 12px;
+        
     }
+    
+
     /* .f-between{
         display: flex;
         justify-content: center;
@@ -16,5 +19,44 @@
         align-items: center;
         gap: 1em;
     }
+    .text-center{
+        text-align: center;
+    }
+    .margin--zero {
+        margin: 0;
+    }
+    .margin-left-right{
+        margin: 0 15px;
+    }
+    .query-margin-top{
+        margin-top: 1.5em;
+    }
+
+    .query-f-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .query-f-wrap-start{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .query--gap{
+        gap: .5em;
+    }
+    .query--gapX2{
+        gap: 1.5em;
+    }
+    .n-width {
+        width: 50%;
+    }
+    .query-d-inline {
+        display: inline;
+    }
+
 }
 
