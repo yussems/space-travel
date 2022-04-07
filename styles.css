@@ -78,6 +78,9 @@ p {
 .padding-all {
   padding: 1em;
 }
+.padding-allX3 {
+  padding: 3em;
+}
 .flex-col {
   display: flex;
   flex-direction: column;
@@ -139,6 +142,9 @@ p {
 }
 .m--bottom {
   margin-bottom: 2em;
+}
+.m--top {
+  margin-top: 2em;
 }
 .card-price .high-price {
   text-decoration: line-through;
@@ -207,8 +213,61 @@ p {
 }
 
 
+
+.img-container {
+  width: 100%;
+  height: 300px;
+
+  position: relative;
+  /* background-image:url('assets/nebula.jpg') ; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.img-container .absolute-container{
+  position: absolute;
+  top: 4em;
+  left: 4em;
+
+}
+.absolute-container .absolute-head {
+  color: #fff;
+  mix-blend-mode: difference;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+.absolute-container .absolute-paraf{
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.img-inside-card {
+  width: 100%;
+  height: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+
+
+
 .main-img {
     width: 100%;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
+}
+
+.category {
+  width: 100%;
+  height: 300px;
+}
+.stick {
+  width: 1px;
+  border-left: 1px solid black;
+  height: 3em
 }
