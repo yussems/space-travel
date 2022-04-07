@@ -96,6 +96,7 @@ address {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .flex-col .active {
@@ -111,7 +112,15 @@ address {
   border-radius: 50%;
   object-fit: none;
   cursor: pointer;
+  transition: .3s;
+
+  
 }
+.nav--img:hover{
+  transform: scale(1.1)
+}
+
+
 
 .bold {
   font-weight: 600;
@@ -306,6 +315,7 @@ address {
 
 .shipping{
   background-color: #fff;
+  box-shadow: 0px -8px 18px 0px rgba(0,0,0,0.75);
   position: absolute;
   top: -1%;
   left: 50%;
@@ -317,4 +327,11 @@ address {
 footer{
   position: relative;
   background-color: #bbb1b1;
+}
+.address {
+  font-size: var(--font-size);
+}
+.address .italic {
+  font-style: italic;
+  font-weight: normal;
 }
